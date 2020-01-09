@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body{
+            font-size:80%;
+            font-family: Arial, sans-serif;
+        }
+        #nttLogo{
+            height: 100px;
+            width: 100px;
+        }
+        #websiteTitle{
+            font-size: 10em;
+            vertical-align: middle;
+            font-family: 'Pacifico',cursive;
+            padding-left: 15px;
+            color: #191970;
+        }
+        #websiteSlogan{
+            font-size: 5.4em;
+        }
+        /*Carousel Styleing */
+        .slide1{
+            background-image: url('images/bkgrnd1.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .slide2{
+            background-image: url('images/bkgrnd2.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .slide3{
+           background-image: url('images/bkgrnd3.png');
+           height: 500px;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+        }
+        .acrousel-caption h1{
+            font-size: 5.4em;
+            font-family: 'Pacifico' , cursive;
+            padding-bottom: .4em;
+        }
+        .acrousel-caption p{
+            font-size: 2em;
+        }
+      .jumbotron{
+          background-color: #2E2D88;
+          color: white;
+      }
+      /*Adds borders for tabs */
+      .tab-content{
+          border-left: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+          padding: 10px;
+      }
+      .nav-tabs{
+          margin-bottom: 0;
+      }
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+       <div class="page-header">
+           <h1>Bootstrap Tutorial</h1>
+       </div>
+       <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h4>Column 1</h4>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sit earum quas delectus quidem debitis deleniti, voluptate odio magnam. Inventore doloribus aliquid excepturi alias tenetur, illum tempora fugit nostrum. Voluptas.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <h4>Column 2</h4>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sit earum quas delectus quidem debitis deleniti, voluptate odio magnam. Inventore doloribus aliquid excepturi alias tenetur, illum tempora fugit nostrum. Voluptas.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <h4>Column 3</h4>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sit earum quas delectus quidem debitis deleniti, voluptate odio magnam. Inventore doloribus aliquid excepturi alias tenetur, illum tempora fugit nostrum. Voluptas.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <h4>Column 4</h4>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sit earum quas delectus quidem debitis deleniti, voluptate odio magnam. Inventore doloribus aliquid excepturi alias tenetur, illum tempora fugit nostrum. Voluptas.
+        </div>
+    </div>
+    <div class="row">
+       <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+           <h4><a href="#col1Content" data-toggle="collapse">Column1</a></h4>
+           <div id="col1Content" class="collapse in">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae quae adipisci laudantium dolore voluptatem, eum soluta laboriosam libero sint molestiae corporis iusto dolor eius sapiente quam qui autem culpa?</div>
+       </div>
+       <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <h4><a href="#col2Content" data-toggle="collapse">Column2</a></h4>
+            <div id="col2Content" class="collapse in">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae quae adipisci laudantium dolore voluptatem, eum soluta laboriosam libero sint molestiae corporis iusto dolor eius sapiente quam qui autem culpa?</div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h4><a href="#col1Content" data-toggle="collapse">Column3</a></h4>
+            <div id="col3Content" class="collapse in">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae quae adipisci laudantium dolore voluptatem, eum soluta laboriosam libero sint molestiae corporis iusto dolor eius sapiente quam qui autem culpa?</div>
+        </div>
+    </div>
+    <div class="jumbotron">
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum consectetur in dolor dignissimos amet similique, placeat sed provident nam officia, sapiente voluptatum corporis iure natus. Nesciunt ut unde esse blanditiis.</p>
+        <p>
+            <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+            <button type="submit" class="btn btn-danger" role="button">Button</button>
+            <input type="button" value="Info" class="btn btn-info">
+            <button type="submit" class="btn-primary btn-sm">Primary</button>
+            <button type="submit" class="btn btn-success btn-xs">Success</button>
+            <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+            <button type="submit" class="btn btn-link btn-lg">Link</button>
+        </p>
+    </div>
+    <div class="container">
+        <div class="well hidden-sm hidden-md hidden-lg">
+            <p>Screen &lt; 768px</p>
+        </div>
+        <div class="well hidden-md hidden-lg">
+            <p>Screen &gt;=768px and  &lt; 992px</p>
+        </div>
+        <div class="well hidden-lg">
+            <p>Screen &gt;=992px and  &lt; 1200px</p>
+        </div>
+        <div class="well">
+            <p>Screen &gt; 1200px</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <td colspan="4">Best Baseball players</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="col-md-2"></th>
+                            <th class="text-center">Average</th>
+                            <th class="text-center">RBIS</th>
+                            <th class="text-center">Homeruns</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Hank Aaron*</a></td>
+                            <td>.305</td>
+                            <td>2297</td>
+                            <td>755</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Hank Aaron*</a></td>
+                            <td>.305</td>
+                            <td>2297</td>
+                            <td>755</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Hank Aaron*</a></td>
+                            <td>.305</td>
+                            <td>2297</td>
+                            <td>755</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <img src="images/ntt-logo.png" id="nttLogo" alt="New Think Tank Logo">
+            <span id="websiteTitle">New Think Tank</span>
+            <p id="websiteSlogan">Video Tutorials on just about Anything</p>
+        </div>
+    </div>
+    
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicatiors">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                    <div class="slide1"></div>
+                    <div class="carousel-caption">
+                        <h1>Amazing Backgrounds</h1>
+                        <p>Thousands of Backgrounds for Free</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>
+                    </div>
+                </div>
+            <div class="item">
+                <div class="slide2"></div>
+                <div class="carousel-caption">
+                    <h1>Thousands of Colours</h1>
+                    <p>Every Color you can Imagine</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slide3"></div>
+                <div class="carousel-caption">
+                    <h1>Amazing Illustrations</h1>
+                    <p>And they are All Free</p>
+                </div>
+            </div>
+
+        </div>
+        <a class="left carousel-control"  href="#theCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control"  href="#theCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span></a>
+        
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <a href="#" class="btn btn-primary btn-lg">Trash<span class="glyphicon glyphicon-trash"></span></a>
+                <button type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>Call me
+                </button>
+            </p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <img src="images/ntt-logo.png" id="nttLogo" class="img-responsive img-thumbnail pull-left" alt="Responsive Image">
+    </div>
+    
+    <div class="container">
+        <span class="text-muted">Quis nostrud</span>
+        <span class="text-primary">exercitaion ullamco</span>
+        <span class="text-success">laboris nisi</span>
+        <span class="text-info">ut aliquip</span>
+        <span class="text-warning">ex ea commodo</span>
+        <span class="text-danger">consequat.</span>
+    </div>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" ar-a-haspopup="true" aria-expanded="true">Favorite Hero
+            <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">Marvel</li>
+                <li><a href="#">Spiderman</a></li>
+                <li><a href="#">Captain</a></li>
+                <li><a href="#">Iron Man</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">DC</li>
+
+                <li class="disabled"><a href="#">Superman</a></li>
+                <li><a href="#">Batman</a></li>
+                <li><a href="#">Flash</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="input-group input-group-lg">
+           <span class="input-group-addon">Your name</span>
+           <input type="text" class="form-control" placeholder="Full Name">
+        </div><br>
+        <div class="input-group input-group-sm">
+            
+            <input type="text" class="form-control" placeholder="Full Name">
+            <span class="input-group-btn">
+                <button class="btn btn-default">Enter</button>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           User ID<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Google+</a></li>
+                    </ul>
+                </div>
+                <input type="text" class="form-control" aria-label="...">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <input type="checkbox"> 
+                </span>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="list-inline">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact
+                    <span class="caret"></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Schedule an Appointment</a></li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#">About</a></li>
+
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown" >
+            Contact<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Schedule Appointment</a></li>
+             </ul>   
+           </li>
+        </ul>
+    </div>
+    <div class="container">
+        <ul class="nav nav-pills">
+           <li class="active"><a href="#superman">Superman</a></li>
+           <li><a href="#batman">Batman</a></li>
+           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Flash<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li class="disabled"><a href="#flash">The Flash</a></li>
+               <li><a href="#kidflash">Kid Flash</a></li>
+            </ul>
+
+        </li>
+        </ul>
+        <div class="tab-content">
+            <div id="superman" class="tab-pane fade in active">
+                <p>fictional superhero appearing in American comic books published by DC Comiscs.</p>
+            </div>
+            <div id="batman" class="tab-pane fade">
+                <p>Not superman</p>
+            </div>
+            <div id="flash" class="tab-pane fade">
+                <p>Flash  appearing in American comic books published by DC Comiscs.</p>
+            </div>
+            <div id="kidflash" class="tab-pane fade">
+                <p>Flash is a fictional superhero appearing in American comic books published by DC Comiscs.</p>
+            </div>
+        </div>
+    </div>
+<div class="container">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                <span class="sr-only">60% Complete</span>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="media">
+            <div class="media-left media-top">
+               <a href="#">
+                   <img src="images/cat.jpg" class="media-object">
+               </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Awesome Veggie Burger</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed tempora facere rem? Officia itaque alias expedita veniam eligendi, impedit minus obcaecati? Recusandae corrupti assumenda consectetur totam sapiente fugiat expedita perspiciatis!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fugit nisi? Mollitia et at natus nisi, dolore quam, dolores sunt possimus error odit veniam voluptatem sit nam, quisquam quaerat numquam.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat soluta tempore quibusdam perferendis qui sed quia unde! Molestiae corrupti ea possimus, assumenda fuga perspiciatis voluptates fugiat quibusdam numquam architecto natus.</p>
+            </div>
+            <div class="media">
+                <div class="media-left media-top">
+                   <a href="#">
+                       <img src="images/cat.jpg" class="media-object">
+                   </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Awesome Veggie Burger</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed tempora facere rem? Officia itaque alias expedita veniam eligendi, impedit minus obcaecati? Recusandae corrupti assumenda consectetur totam sapiente fugiat expedita perspiciatis!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fugit nisi? Mollitia et at natus nisi, dolore quam, dolores sunt possimus error odit veniam voluptatem sit nam, quisquam quaerat numquam.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat soluta tempore quibusdam perferendis qui sed quia unde! Molestiae corrupti ea possimus, assumenda fuga perspiciatis voluptates fugiat quibusdam numquam architecto natus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item disabled">Verizon Email</li>
+            <li class="list-group-item">
+                <span class="badge">123</span>Gmail
+            </li>
+            <li class="list-group-item list-group-item-warning">Junk</li>
+        </ul>
+        <a href="#" class="list-group-item">Add Account</a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Delete Account</h4>
+            <p class="list-group-item-text">The account will be permanently deleted</p>
+        </a>
+        <button type="button" class="list-group-item">Check for Mail</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
